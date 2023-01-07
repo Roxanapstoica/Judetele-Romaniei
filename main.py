@@ -21,6 +21,7 @@ legend.penup()
 legend.goto(-250,210)
 legend.write("Pentru a iesi tasteaza Exit\nScrie numele judetelor fara diacritice\nFoloseste spatiul in loc de cratima")
 answer_state = screen.textinput(title="Ghiceste judetele", prompt="Care e judetul? Tasteaza Exit pentru iesire")
+
 data = pd.read_csv("42-judete.csv")
 counter = 0
 guess = 0
